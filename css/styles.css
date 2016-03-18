@@ -34,3 +34,6 @@ a:link, a:visited {
 a:hover, a:active {
   background-color: #FFCACB;
 }
+.text-blocks {
+  text-align: center;
+}
