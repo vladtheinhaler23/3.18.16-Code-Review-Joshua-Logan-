@@ -40,15 +40,11 @@ li {
 /*carousel*/
 
 
-/*main-content*/
+/*front-content*/
 
-.main-content {
-
-}
 .front-content {
   margin-left: 50px;
   margin-right: 50px;
-  /*float: left;*/
   text-align: left;
   text-align: justify;
 }
@@ -63,7 +59,6 @@ li {
 /*text-blocks*/
 
 .text-blocks {
-  /*float: left;*/
   display: inline-block;
   border: solid;
   border-color: black;
@@ -75,4 +70,34 @@ li {
   margin-left: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+/*about-me*/
+
+img {
+  max-height: 30%;
+  width: auto;
+}
+.about-me-title{
+  text-align: left;
+}
+.about-me-row{
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: left;
+  text-align: justify;
+  border: solid;
+  border-width: medium;;
+  border-color: black;
+  padding: 20px;
+  margin-top: 100px;
+  height; 500px
+
+}
+.about-me-content {
+  text-align: center;
+  padding: 20px;
+}
+.about-me-pics {
+  margin-top: 50px;
 }
