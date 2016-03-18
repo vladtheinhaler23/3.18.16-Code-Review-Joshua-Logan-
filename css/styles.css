@@ -134,5 +134,7 @@ li {
     width: auto;
     padding-top: 5px;
     padding-bottom: 10px;
-
+}
+.projects-links {
+  float: none;
 }
