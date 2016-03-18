@@ -27,7 +27,7 @@ li {
   background-color: #dddddd;
 }
 .menu-bar:link, .menu-bar:visited {
-  background-color: #D8BFD8;
+  background-color: #812f2f;
   color: white;
   padding: 14px 25px;
   text-align: center;
@@ -35,10 +35,17 @@ li {
   display: inline-block;
 }
 .menu-bar:hover, .menu-bar:active {
-  background-color: #FFCACB;
+  background-color: #888d8c;
 }
 /*carousel*/
+#Carousel {
+  min-height: 500px;
+  max-height: 300px;
+}
+.item {
+  max-height: 400px;
 
+}
 
 /*front-content*/
 
@@ -96,9 +103,11 @@ li {
 .about-me-content {
   text-align: center;
   padding: 20px;
+
 }
 .about-me-pics {
   margin-top: 50px;
+
 }
 
 /*projects*/
