@@ -1,3 +1,5 @@
+/*MENU BAR*/
+
 h1 {
   text-align: center;
   font-family: "Helvetica Narrow", sans-serif;
@@ -34,6 +36,39 @@ a:link, a:visited {
 a:hover, a:active {
   background-color: #FFCACB;
 }
+
+/*main-content*/
+
+.main-content {
+}
+.front-content {
+  margin-left: 50px;
+  margin-right: 50px;
+  float: left;
+  text-align: left;
+  text-align: justify;
+}
+
+/*GLYPHICONS*/
+
+.glyphicon {
+  font-size: 3em;
+  float: right;
+}
+
+/*text-blocks*/
+
 .text-blocks {
-  text-align: center;
+  float: left;
+  display: block;
+  border: solid;
+  border-color: black;
+  border-width: 2px;
+  background-color: #D5D9D8;
+  min-height: 200px;
+  max-width: 320px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
