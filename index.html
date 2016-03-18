@@ -3,35 +3,64 @@
   <head>
     <link href="css/css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+
     <title>Joshua Logan's Programming Portfolio</title>
     <h1>Josh Logan</h1>
     <h2>Programming Portfolio</h2>
     <ul>
-      <li><a href="index.html"><strong>HOME</strong></a></li>
-      <li><a href="projects.html"><strong>PROJECTS</stron></a></li>
-      <!-- <li><a href="pictures.html"><strong>PICTURES</strong></a></li> -->
-      <li><a href="about-me.html"><strong>ABOUT ME</strong></a></li>
+      <li><a class="menu-bar" href="index.html"><strong>HOME</strong></a></li>
+      <li><a class="menu-bar" href="projects.html"><strong>PROJECTS</stron></a></li>
+      <li><a class="menu-bar" href="about-me.html"><strong>ABOUT ME</strong></a></li>
     </ul>
   </head>
-    <body>
-      <div class="container main-content">
-        <div class="row front-content">
-          <div class="col-sm-4 text-blocks">
-            <h2>My Projects</h2>
-            <p>Check out some of the awesome work I've been doing at Epicodus. All the hard work is really paying off.</p>
-            <span class="glyphicon glyphicon-road"></span>
-          </div>
-          <div class="col-sm-4 text-blocks">
-            <h2>About Me</h2>
-            <p>Check out some of the awesome work I've been doing at Epicodus. All the hard work is really paying off.</p>
-            <span class="glyphicon glyphicon-user"></span>
-          </div>
-          <div class="col-sm-4 text-blocks">
-            <h2>Check out Epicodus</h2>
-            <p>Check out some of the awesome work I've been doing at Epicodus. All the hard work is really paying off.</p>
-            <span class="glyphicon glyphicon-education"></span>
+  <body>
+    <div class="container">
+      <div id="Carousel" class="carousel slide jumbotron">
+        <div class="container">
+          <div class="carousel-inner">
+            <div class="item">
+              <h2>About Me</h2>
+              <p>Check out some of the awesome work I've been doing at Epicodus. All the hard work is really paying off.</p>
+            </div>
+            <div class="item active">
+              <h2>About Me</h2>
+              <p>Check out some of the awesome work I've been doing at Epicodus. All the hard work is really paying off.</p>
+            </div>
+            <div class="item">
+              <h2>About Me</h2>
+              <p>Check</p>
+            </div>
           </div>
         </div>
+        <a class="left carousel-control" href="#Carousel" data-slide="prev">
+          <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#Carousel" data-slide="next">
+          <span class="icon-next"></span>
+        </a>
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.js"></script>
+        </div>
       </div>
-    </body>
-    </html>
+    </div>
+    <div class="container main-content"
+      <div class="row front-content">
+        <div class="col-sm-4 text-blocks">
+          <h2>My Projects</h2>
+          <p>Check out some of the awesome work I've been doing at Epicodus. All the hard work is really paying off.</p>
+          <span class="glyphicon glyphicon-road"></span>
+        </div>
+        <div class="col-sm-4 text-blocks">
+          <h2>About Me</h2>
+          <p>Check out some of the awesome work I've been doing at Epicodus. All the hard work is really paying off.</p>
+          <span class="glyphicon glyphicon-user"></span>
+        </div>
+        <div class="col-sm-4 text-blocks">
+          <h2>Check out Epicodus</h2>
+          <p>Check out some of the awesome work I've been doing at Epicodus. All the hard work is really paying off.</p>
+          <span class="glyphicon glyphicon-education"></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

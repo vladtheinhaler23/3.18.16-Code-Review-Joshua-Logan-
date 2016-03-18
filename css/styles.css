@@ -15,17 +15,18 @@ ul{
   margin: 0;
   padding: 0;
   text-align: center;
+  margin-bottom: 25px;
 
 }
 li {
   display: inline;
 }
-a {
+.menu-bar {
   display: block;
   padding: 8px;
   background-color: #dddddd;
 }
-a:link, a:visited {
+.menu-bar:link, .menu-bar:visited {
   background-color: #D8BFD8;
   color: white;
   padding: 14px 25px;
@@ -33,18 +34,21 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block;
 }
-a:hover, a:active {
+.menu-bar:hover, .menu-bar:active {
   background-color: #FFCACB;
 }
+/*carousel*/
+
 
 /*main-content*/
 
 .main-content {
+
 }
 .front-content {
   margin-left: 50px;
   margin-right: 50px;
-  float: left;
+  /*float: left;*/
   text-align: left;
   text-align: justify;
 }
@@ -59,14 +63,14 @@ a:hover, a:active {
 /*text-blocks*/
 
 .text-blocks {
-  float: left;
-  display: block;
+  /*float: left;*/
+  display: inline-block;
   border: solid;
   border-color: black;
   border-width: 2px;
   background-color: #D5D9D8;
   min-height: 200px;
-  max-width: 320px;
+  max-width: 370px;
   margin-right: 5px;
   margin-left: 5px;
   margin-top: 10px;
