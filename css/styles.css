@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+  font-family: "Helvetica Narrow", sans-serif;
+  font-weight: lighter;
+}
+h2 {
+  text-align: center;
+  font-family: "Helvetica Narrow", sans-serif;
+  font-weight: lighter;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+li {
+  display: inline;
+}
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+a:link, a:visited {
+  background-color: #D8BFD8;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active {
+  background-color: #FFCACB;
+}
